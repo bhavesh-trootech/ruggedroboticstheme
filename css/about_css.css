@@ -1,0 +1,1097 @@
+section.rr_home_banner_sec.about_banner span.subtitle {
+  color: var(--global_color29);
+  opacity: 0.6;
+}
+
+
+section.rr_home_banner_sec.wavey_design_hero:after {
+  content: '';
+  bottom: 0;
+  background: url(/wp-content/themes/ruggedrobotics/images/marun-top-waves.png) top;
+  position: absolute;
+  left: -15px;
+  right: -15px;
+  height: 15px;
+  z-index: 5;
+}
+
+
+/* carrer section  */
+section.asap_cta_sec_black_layout {
+  padding: 75px 0 90px !important;
+  margin: 0;
+}
+
+section.asap_cta_sec_black_layout .asap_cta_sec_row .asap_cta_sec_right {
+  background-color: var(--global_color29);
+}
+
+section.asap_cta_sec_black_layout .asap_cta_sec_row .asap_cta_sec_right p {
+  color: var(--global_white);
+}
+
+section.asap_cta_sec_black_layout a.btn_white {
+  color: var(--global_white);
+}
+
+section.asap_cta_sec_black_layout a.btn_white {
+  color: var(--global_white) !important;
+}
+
+section.asap_cta_sec_black_layout a.btn_white svg path,
+section.asap_cta_sec_black_layout a.btn_white line {
+  fill: var(--global_color19) !important;
+}
+
+section.asap_cta_sec_black_layout a.btn_white.btn_underline::before {
+  border-color: var(--global_white) !important;
+}
+
+section.asap_cta_sec_black_layout a.btn_white .btn_arrow {
+  background: var(--global_white);
+}
+
+section.asap_cta_sec_black_layout a.btn_white:hover .btn_arrow {
+  background: var(--global_color16);
+}
+
+section.asap_cta_sec_black_layout .asap_cta_sec_row:after {
+  background: url('/wp-content/uploads/2023/10/CAREERS-cross.png');
+  background-repeat: no-repeat;
+  width: 163px;
+  height: 163px;
+  background-size: contain !important;
+  left: unset;
+  top: unset !important;
+  right: -49px;
+  bottom: -44px !important;
+  z-index: 99;
+  animation: unset !important;
+}
+
+/* carrier section end */
+
+
+/* button meet_team_rugged_sect_start css start */
+.meet_team_rugged_sect_start .content {
+  position: relative;
+}
+
+.meet_team_rugged_sect_start .content .linkdin_share {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: block;
+}
+
+.meet_team_rugged_sect_start .content .comm_btn {
+  padding: 16px;
+  margin: 0;
+  border: unset;
+}
+
+.meet_team_rugged_sect_start .content .comm_btn .btn_arrow {
+  width: 38px;
+  height: 38px;
+  border: none;
+}
+
+.meet_team_rugged_sect_start .content .comm_btn:hover svg.default_arrow {
+  opacity: 1 !important;
+  left: 22px;
+}
+
+.meet_team_rugged_sect_start .content .comm_btn:hover .hover_arrow {
+  left: unset;
+  right: -5px;
+}
+
+.meet_team_rugged_sect_start .content .comm_btn:hover .btn_arrow {
+  width: 92px;
+}
+
+/* button meet_team_rugged_sect_start css end */
+
+
+.meet_team_rugged_sect_start .slicer {
+  margin: 0 -8px;
+}
+
+.meet_team_rugged_sect_start .slicer.owl-carousel {
+  display: block;
+}
+
+.meet_team_rugged_sect_start {
+  position: relative;
+  z-index: 0;
+}
+
+.meet_team_rugged_sect_start:after {
+  content: '';
+  height: 646px;
+  width: 642px;
+  position: absolute;
+  top: 43%;
+  left: -468px;
+  background: url(http://ruggedrobotics.kinsta.cloud/wp-content/uploads/2023/10/Circle-3-dot.png) top right;
+  z-index: -1;
+  transform: translateY(-43%);
+  background-repeat: no-repeat;
+}
+
+
+.meet_team_rugged_sect_start .heading {
+  font-size: 51px;
+  line-height: 1;
+  letter-spacing: -1.53px;
+  font-weight: 900;
+  margin-bottom: 46px;
+  padding: 0 22px;
+}
+
+/* .meet_team_rugged_sect_start .heading span { 
+  padding-left: 8px;
+} */
+
+.meet_team_rugged_sect_start .three_col_main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -8px;
+}
+
+.meet_team_rugged_sect_start .three_col_main .content-inner {
+  padding: 38px 38px 38px 38px;
+  background-color: var(--global_color26);
+  position: relative;
+  height: 100%;
+}
+
+.meet_team_rugged_sect_start .three_col_main .content {
+  width: calc(33.33%);
+  padding: 0 8px;
+  margin-bottom: 16px;
+}
+
+.meet_team_rugged_sect_start .image-box {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.meet_team_rugged_sect_start .image {
+  height: 87px;
+  width: 87px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background: #CECECE;
+  border-radius: 50%;
+  overflow: hidden;
+  letter-spacing: -0.48px;
+  color: var(--global_color29);
+}
+
+.meet_team_rugged_sect_start .image span {
+  opacity: 0.25;
+  font-weight: 600;
+}
+
+.meet_team_rugged_sect_start .image img {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  object-position: center center;
+  object-fit: fill;
+}
+
+.meet_team_rugged_sect_start .information {
+  width: calc(100% - 105px);
+  margin: 0 0px 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.meet_team_rugged_sect_start .tilte {
+  letter-spacing: -0.48px;
+  font-weight: 600;
+  text-align: left;
+  font-family: 'Pathway Extreme', sans-serif;
+  margin-bottom: 8px;
+  color: var(--global_color29);
+}
+
+.meet_team_rugged_sect_start .position {
+  letter-spacing: 1.8px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  color: var(--global_color29);
+  text-transform: uppercase;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .meet_team_rugged_sect_start .heading {
+    font-size: 31px;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+
+  .meet_team_rugged_sect_start .three_col_main .content {
+    width: 50%;
+    padding: 0 8px;
+    margin-bottom: 16px;
+  }
+
+  section.asap_cta_sec_black_layout .asap_cta_sec_row:after {
+    width: 120px;
+    height: 120px;
+    bottom: -60px !important;
+  }
+
+  section.asap_cta_sec_black_layout.asap_cta_sec .asap_cta_sec_row {
+    overflow: visible;
+  }
+
+  section.asap_cta_sec_black_layout {
+    overflow: hidden;
+  }
+
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+  .meet_team_rugged_sect_start:after {
+    content: unset !important;
+  }
+
+  .meet_team_rugged_sect_start .three_col_main .content {
+    width: 100%;
+    margin: 0 0 16px 0 !important;
+    padding: 0;
+  }
+
+  .meet_team_rugged_sect_start .container {
+    padding: 0;
+  }
+
+  .meet_team_rugged_sect_start .three_col_main {
+    margin: 0px !important;
+    justify-content: center;
+  }
+
+
+
+  .meet_team_rugged_sect_start .three_col_main button.slick-arrow {
+    background: var(--global_color29);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .meet_team_rugged_sect_start .three_col_main button.slick-prev svg {
+    transform: rotateY(183deg);
+  }
+
+  .meet_team_rugged_sect_start .three_col_main .slider_information {
+    display: flex;
+    align-content: center;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #1C110A;
+    padding: 0 15px;
+    margin-top: 20px;
+  }
+
+  .meet_team_rugged_sect_start .three_col_main ul.slick-dots {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+  }
+
+  .meet_team_rugged_sect_start .three_col_main .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .meet_team_rugged_sect_start .three_col_main .slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+  }
+
+  .meet_team_rugged_sect_start .three_col_main .slick-dots li button:before {
+    content: '';
+    font-size: 12px;
+    line-height: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    text-align: center;
+    opacity: .25;
+    color: var(--global_color19);
+    transform: translate(-50%, -50%);
+    background: var(--global_color19);
+    border-radius: 50%;
+  }
+
+  .meet_team_rugged_sect_start .three_col_main .slick-dots li.slick-active button:before {
+    content: '';
+    height: 12px;
+    width: 12px;
+    border-radius: 0;
+  }
+
+  .meet_team_rugged_sect_start .three_col_main button.slick-disabled {
+    opacity: 0.3;
+  }
+
+  section.asap_cta_sec_black_layout {
+    padding: 50px 0 !important;
+  }
+
+  .meet_team_rugged_sect_start .three_col_main button.slick-arrow {
+    height: 21px;
+    width: 21px;
+  }
+
+  .meet_team_rugged_sect_start .three_col_main .slider_information {
+    line-height: 21px;
+  }
+
+  .meet_team_rugged_sect_start .three_col_main .slick-dots li.slick-active button:before {
+    content: '';
+    height: 12px;
+    width: 12px;
+    border-radius: 0;
+  }
+
+  section.asap_cta_sec_black_layout .asap_cta_sec_row:after {
+    top: -59px !important;
+    height: 115px;
+    width: 115px;
+    right: -31px;
+  }
+
+  section.asap_cta_sec_black_layout .asap_cta_sec_row .asap_cta_sec_left {
+    padding: 39px 38px 46px 38px !important;
+  }
+
+  section.asap_cta_sec_black_layout .asap_cta_sec_row .asap_cta_sec_right {
+    padding: 38px;
+  }
+
+  .meet_team_rugged_sect_start:after {
+    display: none;
+  }
+
+
+
+
+
+
+}
+
+
+/*  our misson section css start */
+
+.about-mission-main {
+  padding-top: 237px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.about-mission-main:after {
+  content: '';
+  background-image: url("/wp-content/uploads/2023/10/Group-2986.png");
+  position: absolute;
+  right: 0;
+  display: block;
+  height: 1156px;
+  width: 597px;
+  background-size: contain;
+  top: 0;
+  left: 50%;
+  transform: translateX(-81%);
+  z-index: -1;
+  background-repeat: no-repeat;
+}
+
+.about-mission-main:before {
+  content: '';
+  background-image: url("/wp-content/uploads/2023/10/Group-1584.png");
+  position: absolute;
+  right: 0;
+  display: block;
+  height: 179px;
+  width: 200px;
+  background-size: 100%;
+  top: calc(237px + 235px);
+  left: -27px;
+  z-index: 9;
+  background-repeat: no-repeat;
+}
+
+section.about-mission-main .about-mission-inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section.about-mission-main .subtitle {
+  display: block;
+  margin-bottom: 14px;
+  color: var(--global_color29);
+  opacity: 0.6;
+}
+
+section.about-mission-main h2 {
+  margin-bottom: 16px;
+}
+
+section.about-mission-main p {
+  color: var(--global_color29);
+  margin-bottom: 16px;
+}
+
+section.about-mission-main .information {
+  width: 50%;
+  padding-top: 60px;
+}
+
+section.about-mission-main .image::after {
+  content: '';
+  background-image: url("/wp-content/uploads/2023/10/abot_our_mission_about-_cross1.png");
+  position: absolute;
+  right: 0;
+  display: block;
+  height: 195px;
+  width: 195px;
+  background-size: contain;
+  top: 80px;
+  left: 308px;
+  background-repeat: no-repeat;
+}
+
+section.about-mission-main .image {
+  width: 50%;
+  position: relative;
+}
+
+section.about-mission-main .image .image-one {
+  max-width: max-content;
+  position: relative;
+}
+
+section.about-mission-main .image .image-one img {
+  position: relative;
+  z-index: 2;
+}
+
+section.about-mission-main .image .image-one:before {
+  content: '';
+  position: absolute;
+  background: url('../images/bg-shadow.svg') no-repeat center;
+  width: 219px;
+  height: 215px;
+  top: -35px;
+  z-index: 1;
+  left: -150px;
+}
+
+section.about-mission-main .goal {
+  padding-top: 250px;
+}
+
+
+
+
+
+
+.goal-inner {
+  max-width: 787px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.goal-inner .goal-one .person-detail {
+  transform: rotate(-4deg);
+}
+
+.goal-inner .goal-two .person-detail {
+  transform: rotate(3deg);
+}
+
+.goal-inner>div {
+  max-width: 350px;
+}
+
+.goal-inner .designation {
+  font-weight: 900;
+  font-size: 33px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  position: relative;
+  white-space: nowrap;
+}
+
+.goal-inner .goal-one,
+.goal-inner .goal-two {
+  text-align: center;
+}
+
+.goal-inner .goal-one .goal-image,
+.goal-inner .goal-two .goal-image {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.goal-inner .goal-one .goal-image::after {
+  content: '';
+  background-image: url(http://ruggedrobotics.kinsta.cloud/wp-content/uploads/2023/10/Group-2990.png);
+  position: absolute;
+  display: block;
+  height: 195px;
+  width: 195px;
+  object-fit: contain;
+  top: -50px;
+  left: -50px;
+  z-index: -1;
+}
+
+.goal-inner .goal-two .goal-image::after {
+  content: '';
+  background-image: url(http://ruggedrobotics.kinsta.cloud/wp-content/uploads/2023/10/Group-2988.png);
+  position: absolute;
+  display: block;
+  height: 310px;
+  width: 370px;
+  background-size: 100%;
+  bottom: -132px;
+  right: -140px;
+  z-index: -1;
+}
+
+.goal-inner .goal-one .designation span {
+  position: relative;
+  z-index: 2;
+}
+
+.goal-inner .goal-one .designation:after {
+  content: '';
+  background-image: url(http://ruggedrobotics.kinsta.cloud/wp-content/uploads/2023/10/Group-2992.png);
+  position: absolute;
+  display: block;
+  height: 50px;
+  background-size: 100% 100%;
+  top: 0px;
+  left: 50%;
+  max-width: 349px;
+  transform: translateX(-50%) rotate(4deg);
+  width: 100%;
+  z-index: 1;
+}
+
+.goal-inner .goal-two .designation:after {
+  content: '';
+  background-image: url(http://ruggedrobotics.kinsta.cloud/wp-content/uploads/2023/10/Group-2997.png);
+  position: absolute;
+  display: block;
+  height: 60px;
+  background-size: 100% 100%;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  width: 349px;
+  transform: rotate(-5deg);
+}
+
+.goal-inner .name {
+  font-size: 14px;
+  color: var(--global_color30);
+  font-weight: 700;
+}
+
+.goal-inner .goal-one {
+  margin-top: 114px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1279px) {
+
+  section.about-mission-main .image::after {
+    height: 160px;
+    width: 160px;
+    top: 118px;
+  }
+
+  .about-mission-main {
+    padding-top: 160px;
+  }
+
+  .about-mission-main:after {
+    width: 500px;
+    transform: translateX(-84%);
+  }
+
+  section.about-mission-main .goal {
+    padding-top: 140px;
+  }
+
+  .meet_team_rugged_sect_start .three_col_main .content-inner {
+    padding: 24px;
+  }
+
+  .about-mission-main:before {
+    height: 135px;
+    width: 150px;
+  }
+
+  section.about-our-story .info p:not(:first-child) {
+    margin-top: 24px;
+  }
+
+  section.about-mission-main .information {
+    padding-top: 40px;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 1023px) {
+
+  section.about-mission-main .image .image-one {
+    margin: 0 auto;
+  }
+
+
+  .goal-inner .goal-one .designation:after,
+  .goal-inner .goal-two .designation:after {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+
+
+}
+
+
+
+
+@media only screen and (max-width: 991px) {
+  .about-mission-main:after {
+    transform: translateX(-50%);
+  }
+
+  section.about-mission-main {
+    overflow: hidden;
+  }
+
+  section.about-mission-main .image {
+    width: 100%;
+  }
+
+  section.about-mission-main .information {
+    width: 100%;
+    z-index: 99;
+  }
+
+  section.about-mission-main .image-one {
+    position: unset;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 99;
+  }
+
+  section.about-mission-main .image::after {
+    right: -23px;
+    left: unset;
+    top: 20%;
+    height: 134px;
+    width: 134px;
+  }
+
+  .about-mission-main:after {
+    background: unset;
+  }
+
+  .about-mission-main {
+    padding-top: 0px;
+  }
+
+  section.about-mission-main .goal {
+    padding-top: 180px !important;
+  }
+
+  .goal-inner .designation {
+    font-size: 21px;
+    display: inline-block;
+  }
+
+
+
+
+
+  .goal-inner .goal-one .goal-image,
+  .goal-inner .goal-two .goal-image {
+    display: inline-block !important;
+  }
+
+  section.about-mission-main .image {
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+
+  section.about-mission-main .image::before {
+    content: '';
+    background-image: url(http://ruggedrobotics.kinsta.cloud/wp-content/uploads/2023/10/Mask-Group-23.png);
+    position: absolute;
+    right: 0;
+    display: block;
+    height: 100%;
+    width: 150px;
+    background-size: contain;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+
+  section.about-mission-main .goal {
+    position: relative;
+  }
+
+  section.about-mission-main .goal:after {
+    content: '';
+    background-image: url("http://ruggedrobotics.kinsta.cloud/wp-content/uploads/2023/10/Group-3176.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    display: block;
+    height: 133px;
+    width: 189px;
+    background-size: contain;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+
+  section.about-mission-main .information {
+    margin-top: 0;
+  }
+
+  .about-mission-main:before {
+    top: calc(237px);
+    height: 138px;
+    width: 124px;
+    background-size: contain;
+    left: -70px;
+  }
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+  .goal-inner {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  section.about-mission-main .image::after {
+    right: -48px;
+  }
+
+  section.about-mission-main .image {
+    padding-bottom: 50px;
+  }
+
+  section.about-mission-main .information {
+    padding-bottom: 30px;
+  }
+
+  .goal-inner .goal-one {
+    margin-top: 64px;
+  }
+
+  .about-mission-main:before {
+    top: 235px;
+    z-index: 5;
+  }
+
+  .about-mission-main .container {
+    position: relative;
+    z-index: 4;
+  }
+
+
+  .goal-inner .designation {
+    padding: 0 24px;
+  }
+
+  .meet_team_rugged_sect_inner .owl-nav button {
+    width: 21px;
+    height: 21px;
+    background: var(--global_color29) !important;
+    position: relative;
+    z-index: 9;
+  }
+
+  .meet_team_rugged_sect_inner.owl-nav button svg {
+    width: 13px;
+    height: 13px;
+  }
+
+  .meet_team_rugged_sect_inner .owl-nav button svg * {
+    fill: var(--global_color19) !important;
+  }
+
+  .meet_team_rugged_sect_inner .owl-nav button.disabled {
+    opacity: 0.3;
+  }
+
+
+  .meet_team_rugged_sect_inner .owl-nav {
+    position: relative;
+    width: 100%;
+    top: unset;
+    -webkit-transform: unset;
+    -ms-transform: unset;
+    transform: unset;
+    max-width: 200px;
+    margin-top: 38px;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .meet_team_rugged_sect_inner .owl-nav::before {
+    content: "Swipe for more";
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Fira Mono";
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    line-height: 17px;
+    text-align: center;
+    color: var(--global_color29);
+    width: 100%;
+  }
+
+  .meet_team_rugged_sect_inner .owl-dots {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 14px auto 0;
+  }
+
+  .meet_team_rugged_sect_inner .owl-dots .owl-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background: var(--global_color19);
+    opacity: 0.3;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .meet_team_rugged_sect_inner .owl-dots .owl-dot.active {
+    opacity: 1;
+    border-radius: 0;
+  }
+
+  .goal-inner .goal-one .goal-image,
+  .goal-inner .goal-two .goal-image {
+    position: relative;
+    margin-bottom: 10px;
+    width: 161px;
+    height: 157px;
+    object-fit: fill;
+  }
+
+  section.about-our-story h2,
+  section.about-our-story span {
+    text-align: left;
+  }
+
+  section.about-mission-main .image .image-one:before {
+    content: unset;
+  }
+
+  section.about-mission-main .image .image-one img {
+    max-width: 300px;
+    width: 100%;
+  }
+
+  .goal-inner .goal-one .designation:after,
+  .goal-inner .goal-two .designation:after {
+    max-width: 260px;
+  }
+
+
+
+}
+
+@media screen and (max-width: 374px) {
+  .goal-inner .designation {
+    padding: 0 7px;
+  }
+
+  section.asap_cta_sec_black_layout .asap_cta_sec_row .asap_cta_sec_right {
+    padding: 18px;
+  }
+
+  section.asap_cta_sec_black_layout .asap_cta_sec_row .asap_cta_sec_left {
+    padding: 20px !important;
+  }
+
+  .meet_team_rugged_sect_start .heading {
+    padding: 0 15px;
+  }
+
+  section.about-mission-main .image .image-one img {
+    max-width: 255px;
+    width: 100%;
+  }
+  
+  .about-mission-main:before {
+    top: 220px;
+    z-index: 5;
+  }
+
+}
+
+/* our misson section css end */
+
+
+
+
+.rr_home_banner_sec.about_banner:after {
+  content: '';
+  bottom: 0;
+  background: url(../images/marun-top-waves.png) top;
+  position: absolute;
+  left: -15px;
+  right: -15px;
+  height: 15px;
+  z-index: 5;
+}
+
+@media screen and (min-width: 1921px) {
+
+  .rr_home_banner_sec.about_banner:after {
+    background-size: cover;
+  }
+
+}
+
+
+section.about-our-story h2,
+section.about-our-story span {
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+section.about-our-story span {
+  color: var(--global_color29);
+  opacity: 0.6;
+}
+
+section.about-our-story h2 {
+  margin-bottom: 20px;
+}
+
+section.about-our-story .info p:not(:first-child) {
+  margin-top: 35px;
+}
+
+section.about-our-story .info p {
+  color: var(--global_color29);
+}
+
+section.about-our-story .info {
+  padding-bottom: 32px;
+}
+
+section.about-our-story {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+
+section.about-our-story:after {
+  content: '';
+  position: relative;
+  display: block;
+  background-image: url('http://ruggedrobotics.kinsta.cloud/wp-content/uploads/2023/10/Mask-Group-29.png');
+  background-repeat: no-repeat;
+  height: 126px;
+  width: 189px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media only screen and (max-width: 768px) {
+  section.about-our-story .info p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  section.about-our-story h2,
+  section.about-our-story span.subtitle {
+    text-align: left;
+  }
+}
+
+
+.rr_video_block.about_video .rr_video_heading {
+  max-width: 940px;
+}
